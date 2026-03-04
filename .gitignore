@@ -1,0 +1,5 @@
+# ZAP_reports and raw xml/binary scan exports
+ZAP_reports/
+*.xml
+*.gnmap
+image/

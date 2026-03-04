@@ -1,22 +1,58 @@
-# FUTURE_CS_01: Vulnerability Assessment Report for a Live Website
+# FUTURE_CS_01 — Vulnerability Assessment Report
 
-## 🔍 Task Overview
+![Assessment](evidence/Screenshot_2026-03-04_15_30_25.png)
 
-This repository contains the deliverables for **Task 1: Vulnerability Assessment Report for a Live Website**, part of the Future Interns Cyber Security track.
+## 🔍 About This Task
 
-The objective was to perform a read-only, non-intrusive security analysis of a public, authorized test website, classify the identified risks, and document the findings in a professional, business-friendly report.
+This repository is the submission for **Task 1** of the **Future Interns Cyber Security Track (2026)**.
 
-**Target Selected:** `demo.testfire.net` (Altoro Mutual - IBM's legally authorized test domain)
+**Task:** Perform a passive vulnerability assessment on a live (authorized) website, produce a professional security report, and document the full methodology with evidence.
+
+---
+
+## 🎯 Target Website
+
+| Field | Details |
+|---|---|
+| **Site** | Altoro Mutual — `https://demo.testfire.net` |
+| **Reason for selection** | Publicly authorized test banking application by HCL Technologies, designed for security testing |
+| **Scope** | Read-only passive analysis — no exploitation |
+
+---
 
 ## 🛠️ Tools Used
 
-- **Nmap**: For port scanning and service detection.
-- **Nikto**: For web server vulnerability scanning and identifying missing security configurations.
-- **WhatWeb**: For technology stack fingerprinting and header analysis.
-- **OWASP ZAP**: For passive web application vulnerability assessment.
-- **Kali Linux**: The primary operating system used to conduct the scans.
+| Tool | Purpose |
+|---|---|
+| Kali Linux | Operating environment |
+| Nmap v7.95 | Port scanning & service enumeration |
+| Nikto v2.5.0 | Web vulnerability scanning |
+| WhatWeb | Technology fingerprinting |
+| OWASP ZAP v2.16.1 | Automated passive web application scanning |
 
-## 📄 Deliverables
+---
 
-- [**Vulnerability Assessment Report**](Vulnerability_Assessment_Report.md): The detailed report covering the identified vulnerabilities, their business context, risk levels, and remediation steps.
-- **Scan Evidence Data**: Raw outputs from `nmap`, `nikto`, `whatweb`, and `ZAP` stored locally in the analysis environment.
+## 📁 Repository Structure
+
+```
+FUTURE_CS_01/
+├── VAPT_Report.md              # ✅ Full professional assessment report
+├── Step_by_Step_Methodology.md # ✅ Step-by-step documentation with screenshots
+├── README.md                   # This file
+└── evidence/
+    ├── nmap_scan.nmap          # Nmap scan output
+    ├── nikto_results.txt       # Nikto vulnerability scan
+    ├── whatweb_results.txt     # Technology fingerprint
+    └── Screenshots/            # Visual evidence from ZAP, Nikto, Nmap
+```
+
+---
+
+## 📄 Key Deliverables
+
+- [📊 **Full VAPT Report**](VAPT_Report.md) — Professional assessment report (15 findings, 4 Medium · 7 Low · 4 Informational). Use this for your Canva PDF design.
+- [🔬 **Step-by-Step Methodology**](Step_by_Step_Methodology.md) — How the assessment was conducted, with screenshots.
+
+---
+
+*Submitted by: Patrick Leon | Future Interns Cyber Security Program 2026*

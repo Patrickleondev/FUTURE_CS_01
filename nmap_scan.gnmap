@@ -1,4 +1,0 @@
-# Nmap 7.95 scan initiated Wed Mar  4 12:38:34 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC -T4 -O -oA nmap_scan demo.testfire.net
-Host: 65.61.137.117 ()	Status: Up
-Host: 65.61.137.117 ()	Ports: 80/open/tcp//http//Apache Tomcat|Coyote JSP engine 1.1/, 443/open/tcp//ssl|http//Apache Tomcat|Coyote JSP engine 1.1/, 8080/open/tcp//http//Apache Tomcat|Coyote JSP engine 1.1/, 8443/closed/tcp//https-alt///	Ignored State: filtered (996)	Seq Index: 250	IP ID Seq: Incremental
-# Nmap done at Wed Mar  4 12:39:43 2026 -- 1 IP address (1 host up) scanned in 68.81 seconds
