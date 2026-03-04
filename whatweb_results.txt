@@ -1,0 +1,58 @@
+WhatWeb report for [1m[34mhttp://demo.testfire.net[0m
+Status    : 200 OK
+Title     : [1m[33mAltoro Mutual[0m
+IP        : 65.61.137.117
+Country   : [1m[31mUNITED STATES, US[0m
+
+Summary   : [1mApache[0m, [1mCookies[0m[[0m[22mJSESSIONID[0m], [1mHTTPServer[0m[[1m[36mApache-Coyote/1.1[0m], [1mHttpOnly[0m[[0m[22mJSESSIONID[0m], [1mJava[0m
+
+Detected Plugins:
+[ [1mApache[0m ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ [1mCookies[0m ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : [1m[36mJSESSIONID[0m
+
+[ [1mHTTPServer[0m ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : [1m[36mApache-Coyote/1.1[0m (from server string)
+
+[ [1mHttpOnly[0m ]
+	If the HttpOnly flag is included in the HTTP set-cookie 
+	response header and the browser supports it then the cookie 
+	cannot be accessed through client side script - More Info: 
+	http://en.wikipedia.org/wiki/HTTP_cookie 
+
+	String       : [1m[36mJSESSIONID[0m
+
+[ [1mJava[0m ]
+	Java allows you to play online games, chat with people 
+	around the world, calculate your mortgage interest, and 
+	view images in 3D, just to name a few. It's also integral 
+	to the intranet applications and other e-business solutions 
+	that are the foundation of corporate computing. 
+
+	Website     : http://www.java.com/
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Server: Apache-Coyote/1.1
+	Set-Cookie: JSESSIONID=EB0C9B91347404E08FB2EEEE4DD63A15; Path=/; HttpOnly
+	Content-Type: text/html;charset=ISO-8859-1
+	Transfer-Encoding: chunked
+	Date: Wed, 04 Mar 2026 17:44:52 GMT
+	Connection: close
+	
