@@ -7,3 +7,5 @@
 + GET HTTP method ('Allow' Header): 'PUT' method could allow clients to save files on the web server.
 + GET HTTP method ('Allow' Header): 'DELETE' may allow clients to remove files on the web server.
 + EXEGGBKV /: Web Server returns a valid response with junk HTTP methods which may cause false positives.
+- Nikto v2.5.0/
+- Nikto v2.5.0/

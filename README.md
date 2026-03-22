@@ -2,7 +2,7 @@
 
 ![Assessment](evidence/Screenshot_2026-03-04_15_30_25.png)
 
-## 🔍 About This Task
+## About This Task
 
 This repository is the submission for **Task 1** of the **Future Interns Cyber Security Track (2026)**.
 
@@ -10,7 +10,7 @@ This repository is the submission for **Task 1** of the **Future Interns Cyber S
 
 ---
 
-## 🎯 Target Website
+## Target Website
 
 | Field | Details |
 |---|---|
@@ -20,7 +20,7 @@ This repository is the submission for **Task 1** of the **Future Interns Cyber S
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -32,12 +32,12 @@ This repository is the submission for **Task 1** of the **Future Interns Cyber S
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 FUTURE_CS_01/
-├── VAPT_Report.md              # ✅ Full professional assessment report
-├── Step_by_Step_Methodology.md # ✅ Step-by-step documentation with screenshots
+├── VAPT_Report.md              # Full professional assessment report
+├── Step_by_Step_Methodology.md # Step-by-step documentation with screenshots
 ├── README.md                   # This file
 └── evidence/
     ├── nmap_scan.nmap          # Nmap scan output
@@ -48,10 +48,10 @@ FUTURE_CS_01/
 
 ---
 
-## 📄 Key Deliverables
+## Key Deliverables
 
-- [📊 **Full VAPT Report**](VAPT_Report.md) — Professional assessment report (15 findings, 4 Medium · 7 Low · 4 Informational). Use this for your Canva PDF design.
-- [🔬 **Step-by-Step Methodology**](Step_by_Step_Methodology.md) — How the assessment was conducted, with screenshots.
+- [**Full VAPT Report**](VAPT_Report.md) — Professional assessment report (15 findings, 4 Medium · 7 Low · 4 Informational). Use this for your Canva PDF design.
+- [**Step-by-Step Methodology**](Step_by_Step_Methodology.md) — How the assessment was conducted, with screenshots.
 
 ---
 

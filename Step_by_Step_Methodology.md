@@ -2,6 +2,8 @@
 
 This document outlines the exact methodology and steps taken during the penetration testing and vulnerability assessment of `demo.testfire.net`. The assessment was conducted from a Kali Linux environment.
 
+![1772657214352](image/Step_by_Step_Methodology/1772657214352.jpg)
+
 ## Step 1: Target Selection and Initial Reconnaissance
 
 The target selected for this assessment is `demo.testfire.net` (Altoro Mutual), an authorized web application designed for security testing purposes.
@@ -58,7 +60,7 @@ The site was spidered and passively analyzed.
 The ZAP alert tab highlighted multiple Medium and Low severity vulnerabilities, including missing Anti-CSRF tokens and missing Content Security Policy headers.
 
 ![OWASP ZAP Interface 2](Screenshots/Screenshot_2026-03-04_15_30_30.png)
-*(Note: An additional overview screenshot provided by the user is available at `Screenshot_4-3-2026_173720_demo.testfire.net.jpeg`)*
+
 
 ## Conclusion
 
