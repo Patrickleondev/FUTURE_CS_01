@@ -1,58 +1,42 @@
-# FUTURE_CS_01 — Vulnerability Assessment Report
+# FUTURE_CS_01 - Vulnerability Assessment Report
 
-![Assessment](evidence/Screenshot_2026-03-04_15_30_25.png)
+## Project Overview
 
-## About This Task
+This repository contains the deliverables for Task 1 of the Future Interns Cyber Security Track (2026).
+The objective was to perform a comprehensive, passive vulnerability assessment on a live authorized test application and produce a client-ready security report. The assessment demonstrates the ability to identify, classify, and communicate web application vulnerabilities with their corresponding business impacts and remediation strategies.
 
-This repository is the submission for **Task 1** of the **Future Interns Cyber Security Track (2026)**.
+## Target Details
 
-**Task:** Perform a passive vulnerability assessment on a live (authorized) website, produce a professional security report, and document the full methodology with evidence.
+- Target Application: Altoro Mutual (`demo.testfire.net`)
+- Scope: Publicly accessible HTTP/HTTPS pages.
+- Assessment Type: Read-Only / Passive Vulnerability Assessment (No active exploitation).
 
----
+![Target Application - Altoro Mutual](evidence/Screenshot_4-3-2026_173720_demo.testfire.net.jpeg)
 
-## Target Website
+## Methodology & Tools Used
 
-| Field | Details |
-|---|---|
-| **Site** | Altoro Mutual — `https://demo.testfire.net` |
-| **Reason for selection** | Publicly authorized test banking application by HCL Technologies, designed for security testing |
-| **Scope** | Read-only passive analysis — no exploitation |
+The assessment followed a structured methodology to ensure comprehensive coverage without disrupting the target service:
 
----
+1. Reconnaissance & OSINT
+2. Port & Service Enumeration (`Nmap v7.95`)
+   ![Nmap Scan Execution](evidence/Screenshot_2026-03-04_12_43_42.png)
+3. Technology Fingerprinting (`WhatWeb`)
+4. Web Server Misconfiguration Scanning (`Nikto v2.5.0`)
+   ![Nikto Scan Output](evidence/Screenshot_2026-03-04_12_47_14.png)
+5. Automated Application-Level Passive Scanning (`OWASP ZAP v2.16.1`)
+   ![OWASP ZAP Interface](evidence/Screenshot_2026-03-04_15_30_03.png)
 
-## Tools Used
+## Key Findings Summary
 
-| Tool | Purpose |
-|---|---|
-| Kali Linux | Operating environment |
-| Nmap v7.95 | Port scanning & service enumeration |
-| Nikto v2.5.0 | Web vulnerability scanning |
-| WhatWeb | Technology fingerprinting |
-| OWASP ZAP v2.16.1 | Automated passive web application scanning |
+The passive assessment identified 15 distinct vulnerabilities across varying severity levels. Key infrastructure weaknesses include:
 
----
+- Missing Anti-CSRF Tokens on sensitive forms.
+- Complete absence of critical security headers (Content-Security-Policy, X-Frame-Options, Strict-Transport-Security).
+- Information Disclosure identifying highly outdated server infrastructure (Apache Tomcat Coyote 1.1).
 
-## Repository Structure
+*Note: For a detailed breakdown of all 15 findings, their business impacts, and the priority remediation plan, please review the final PDF Deliverable.*
 
-```
-FUTURE_CS_01/
-├── VAPT_Report.md              # Full professional assessment report
-├── Step_by_Step_Methodology.md # Step-by-step documentation with screenshots
-├── README.md                   # This file
-└── evidence/
-    ├── nmap_scan.nmap          # Nmap scan output
-    ├── nikto_results.txt       # Nikto vulnerability scan
-    ├── whatweb_results.txt     # Technology fingerprint
-    └── Screenshots/            # Visual evidence from ZAP, Nikto, Nmap
-```
+## Deliverables
 
----
-
-## Key Deliverables
-
-- [**Full VAPT Report**](VAPT_Report.md) — Professional assessment report (15 findings, 4 Medium · 7 Low · 4 Informational). Use this for your Canva PDF design.
-- [**Step-by-Step Methodology**](Step_by_Step_Methodology.md) — How the assessment was conducted, with screenshots.
-
----
-
-*Submitted by: Patrick Leon | Future Interns Cyber Security Program 2026*
+- The final Vulnerability Assessment Report (`.pdf` or `.docx`).
+- `evidence/`: Directory containing raw cryptographic tool outputs (`.nmap`, `.txt`) and the complete archive of assessment screenshots.
