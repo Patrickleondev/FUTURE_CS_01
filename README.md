@@ -38,5 +38,5 @@ The passive assessment identified 15 distinct vulnerabilities across varying sev
 
 ## Deliverables
 
-- The final Vulnerability Assessment Report (`.pdf` or `.docx`).
+- The final Vulnerability Assessment Report (`.pdf` and `.pptx`).
 - `evidence/`: Directory containing raw cryptographic tool outputs (`.nmap`, `.txt`) and the complete archive of assessment screenshots.
